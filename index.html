@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Dwija</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#interests">Interests</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Dwija</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#interests" onclick="toggleMenu()">Interests</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="C:/Users/dwija/OneDrive/Documents/GitHub/PORTFOLIO/assets/PROFILE.png" alt="Dwija profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Dwijavanthi J</h1>
+        <p class="section__text__p2">Student</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('C:/Users/dwija/OneDrive/Documents/GitHub/PORTFOLIO/assets/RESUME.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="C:/Users/dwija/OneDrive/Documents/GitHub/PORTFOLIO/assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/dwijavanthij/'"
+          />
+          <img
+            src="C:/Users/dwija/OneDrive/Documents/GitHub/PORTFOLIO/assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/dwija-dj'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="C:/Users/dwija/OneDrive/Documents/GitHub/PORTFOLIO/assets/ABOUT.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="C:/Users/dwija/OneDrive/Documents/GitHub/PORTFOLIO/assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Interests</h3>
+              <p>DATA SCIENCE <br/>MACHINE LEARNING</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="C:/Users/dwija/OneDrive/Documents/GitHub/PORTFOLIO/assets/Education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>HIGH SCHOOL<br />CURRENTLY Btech CSE(Data-Science)</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I'm a passionate data enthusiast on a journey to uncover meaningful insights from the world of information. 
+              With a specialization in Data Science, I'm adept at transforming raw data into valuable knowledge. 
+              I thrive on challenges, applying my analytical skills to solve real-world problems. 
+              My goal is to make data-driven decisions accessible and impactful. 
+              Let's explore the data world together!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="C:/Users/dwija/OneDrive/Documents/GitHub/PORTFOLIO/assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#interests'"
+      />
+    </section>
+    <section id="interests">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Interests</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            
+            <br>
+            <div class="article-container">
+              <article>
+                <img
+                  src="C:/Users/dwija/OneDrive/Documents/GitHub/PORTFOLIO/assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Interested in:</h3>
+                  <p>Data Science</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="C:/Users/dwija/OneDrive/Documents/GitHub/PORTFOLIO/assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Interested in:</h3>
+                  <p>Machine Learning</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="C:/Users/dwija/OneDrive/Documents/GitHub/PORTFOLIO/assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Interested in:</h3>
+                  <p>Deep Learning</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="C:/Users/dwija/OneDrive/Documents/GitHub/PORTFOLIO/assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Proficient in: ‎ ‎ </h3>
+                  <p>PYTHON</p>
+                </div>
+              </article><article>
+                <img
+                  src="C:/Users/dwija/OneDrive/Documents/GitHub/PORTFOLIO/assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Proficient in:‎ ‎ ‎ ‎ ‎ ‎  </h3>
+                  <p>C</p>
+                </div>
+              </article><article>
+                <img
+                  src="C:/Users/dwija/OneDrive/Documents/GitHub/PORTFOLIO/assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Proficient in:</h3>
+                  <p>C++</p>
+                </div>
+              </article><article>
+                <img
+                  src="C:/Users/dwija/OneDrive/Documents/GitHub/PORTFOLIO/assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Proficient in:‎ ‎ ‎ </h3>
+                  <p>Java</p>
+                </div>
+              </article><article>
+                <img
+                  src="C:/Users/dwija/OneDrive/Documents/GitHub/PORTFOLIO/assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Proficient in:‎ ‎ ‎ ‎ ‎ ‎ </h3>
+                  <p>MySql</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="C:/Users/dwija/OneDrive/Documents/GitHub/PORTFOLIO/assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Proficient in:‎</h3>
+                  <p>Django</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="C:/Users/dwija/OneDrive/Documents/GitHub/PORTFOLIO/assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">UPCOMING</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title">STOCK ANALYSIS APP</h2>
+            <h2 class="experience-sub-title project-title">BANK MANAGEMENT SYSTEM</h2>
+          </div>
+        </div>
+      </div>
+      <img
+        src="C:/Users/dwija/OneDrive/Documents/GitHub/PORTFOLIO/assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="C:/Users/dwija/OneDrive/Documents/GitHub/PORTFOLIO/assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:dwija2005@gmail.com">dwija2005@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="C:/Users/dwija/OneDrive/Documents/GitHub/PORTFOLIO/assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/dwijavanthij/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#interests">Interests</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Dwijavanthi J . All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
