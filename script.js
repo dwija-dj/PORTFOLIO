@@ -8,10 +8,11 @@ function toggleMenu() {
 const coords = { x: 0, y: 0 };
 const circles = document.querySelectorAll(".circle");
 const colors = [
-  "#070F2B",
-  "#1B1A55",
-  "#535C91",
-  "#9290C3"
+  "#ffffff",
+  "#c0c0c0",
+  "#808080",
+  "#2b2b2b",
+  "#000001"
 
 ];
 circles.forEach(function (circle, index) {
