@@ -8,25 +8,11 @@ function toggleMenu() {
 const coords = { x: 0, y: 0 };
 const circles = document.querySelectorAll(".circle");
 const colors = [
-  "#f5f5f5", // Off-white
-  "#e0e0e0", // Light gray
-  "#c8c8c8", // Medium-light gray
-  "#a0a0a0", // Medium gray
-  "#787878", // Medium-dark gray
-  "#525252", // Dark gray
-  "#343434", // Very dark gray
-  "#222222", // Extremely dark gray
-  "#111111", // Black
-  "#ffb6c1", // Light pink
-  "#ff7979", // Light coral
-  "#ff5c33", // Pumpkin
-  "#ffcc00", // Sunflower
-  "#99cc00", // Lime
-  "#00cc66", // Mint
-  "#00bfff", // Aqua
-  "#6666ff", // Blue
-  "#cc00ff", // Lavender
-  "#ff00cc" // Raspberry
+  "#070F2B"
+  "#1B1A55"
+  "#535C91"
+  "#9290C3"
+
 ];
 circles.forEach(function (circle, index) {
   circle.x = 0;
