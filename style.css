@@ -430,3 +430,9 @@ footer {
 footer p {
   text-align: center;
 }
+
+body, html {
+  padding: 0; 
+  margin: 0;
+ overscroll-behavior: none;
+}
