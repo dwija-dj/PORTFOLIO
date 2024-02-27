@@ -54,3 +54,25 @@ function animateCircles() {
 }
 
 animateCircles();
+
+const logoLetters = document.querySelectorAll('.logo span');
+const targetText = "DWIJA";
+const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
+// Animate each letter
+logoLetters.forEach((letter, index) => {
+    const targetIndex = alphabet.indexOf(targetText[index]);
+    let currentIndex = 0;
+
+    // Animation function to change letter
+    const animateLetter = () => {
+        if (currentIndex <= targetIndex) {
+            letter.textContent = alphabet[currentIndex];
+            currentIndex++;
+            setTimeout(animateLetter, 100); // Adjust the speed of animation here
+        }
+    };
+
+    // Start the animation
+    animateLetter();
+});
