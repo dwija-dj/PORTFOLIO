@@ -59,9 +59,6 @@ a:hover {
 }
 
 .logo {
-  font-size: 2rem;
-}
-.logo {
   display: flex;
   justify-content: center;
   align-items: center;
