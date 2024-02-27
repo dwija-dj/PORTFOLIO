@@ -1,4 +1,3 @@
-
 function toggleMenu() {
   const menu = document.querySelector(".menu-links");
   const icon = document.querySelector(".hamburger-icon");
@@ -10,21 +9,22 @@ const coords = { x: 0, y: 0 };
 const circles = document.querySelectorAll(".circle");
 
 const colors = [
-  "#333333",
-  "#4c4c4c",
-  "#666666",
-  "#999999",
-  "#cccccc",
-  "#e6e6e6",
   "#f5f5f5",
-  "#ffffff"
+  "#e6e6e6",
+  "#cccccc",
+  "#999999",
+  "#666666",
+  "#4c4c4c",
+  "#333333",
+  "#191919",
+  "#000000"
 ];
 
 circles.forEach(function (circle, index) {
   circle.x = 0;
   circle.y = 0;
   circle.style.backgroundColor = colors[index % colors.length];
-  circle.style.zIndex = "999999";
+  circle.style.zIndex = "9999"; // Set the z-index to a higher value
 });
 
 window.addEventListener("mousemove", function(e){
