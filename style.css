@@ -58,54 +58,10 @@ a:hover {
   text-decoration-color: rgb(181, 181, 181);
 }
 
-
-#logo-container {
-  display: flex;
-  align-items: center;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  font-size: 3rem;
-  line-height: 1;
+.logo {
+  font-size: 2rem;
 }
 
-#logo-letter-d {
-  animation: scroll-down 2s forwards;
-}
-
-#logo-letter-w {
-  animation: scroll-down 2s 0.1s forwards;
-}
-
-#logo-letter-i {
-  animation: scroll-down 2s 0.2s forwards;
-}
-
-#logo-letter-j {
-  animation: scroll-down 2s 0.3s forwards;
-}
-
-#logo-letter-a {
-  animation: scroll-down 2s 0.4s forwards;
-}
-
-@keyframes scroll-down {
-  0% {
-    transform: translateY(0);
-    opacity: 0;
-  }
-  10% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-  90% {
-    transform: translateY(100%);
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(100%);
-    opacity: 0;
-  }
-}
 .logo:hover {
   cursor: default;
 }
