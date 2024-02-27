@@ -6,9 +6,9 @@ function toggleMenu() {
 }
 
 /* GENERAL */
-
 const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext('2d');
+const body = document.querySelector('body');
 
 // for intro motion 
 let mouseMoved = false;
@@ -17,13 +17,6 @@ const pointer = {
     x: .5 * window.innerWidth,
     y: .5 * window.innerHeight,
 }
-const params = {
-    pointsNumber: 40,
-    widthFactor: .3,
-    mouseThreshold: .6,
-    spring: .4,
-    friction: .5
-};
 
 const trail = new Array(params.pointsNumber);
 for (let i = 0; i < params.pointsNumber; i++) {
